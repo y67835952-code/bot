@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits, Partials, EmbedBuilder } = require('discord.js');
 const fs = require('fs');
-const TOKEN = '你的Bot令牌'; // <---- 替换为你的Bot Token
+const TOKEN = ''; // <---- 替换为你的Bot Token
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
